@@ -389,9 +389,15 @@ form .form-control{
 .feature1{
     height: auto;
     width: 100%;
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 #contact{
     height: auto;
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .btn-send{
     margin-bottom: 30px;
