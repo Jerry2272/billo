@@ -1,0 +1,399 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.nav-link{
+    text-transform: uppercase;
+    font-size:14px;
+    font-weight: 600;
+    color: black;
+}
+.navbar-brand{
+    font-weight: 800;
+    font-size: 30px;
+}
+.navbar{
+    box-shadow: 0px 2px 2px 3px black;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #fff;
+    border-radius: 100px;
+    background: linear-gradient(rgba(190, 10, 100, 0.9),rgba(9, 136, 136,0.8)), url("../Images/Img_1.jpg");
+}
+.nav-link:hover{
+   background:  linear-gradient(rgba(0, 0, 0, 0.70),rgba(0, 0, 1,0.89));
+   color: white;
+   border-radius: 10px;
+}
+#home{
+    height: 100vh;
+    max-width:1400px;
+    background: url("..//Images/Team_Image1.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 12em;
+    position: relative;
+    z-index: 2; 
+
+}
+#home h1{
+    color: white;
+    font-weight: 700;
+    line-height: 65px;
+    text-transform: capitalize;
+}
+#home p{
+    color: white;
+    margin-top: 20px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.btn-main{
+    color: white;
+    background: linear-gradient(rgba(190, 10, 100, 0.7),rgba(9, 136, 136,0.8));
+    margin-top: 20px;
+    border-radius: 100px;
+    padding: 13px 25px;
+    border: none;
+    transition: all 2s ease;
+}
+.btn-main:hover{
+    transform: translatey(-5px);
+    background: red;
+    color: white;
+}
+.overlay{
+    position: absolute;
+   background: linear-gradient(rgba(190, 10, 100, 0.73),rgba(9, 136, 136,0.80));
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.serv{
+    text-align: center;
+}
+.serv h4{
+    font-weight: 700;
+}
+.fa-object-group{
+    position: relative;
+    bottom: 19px;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    background: linear-gradient(rgba(190, 10, 100, 0.99),rgba(9, 136, 136,0.99));
+    padding: 10px 16px;
+    border-radius: 130px;
+    text-align: center;
+}
+.fa-commenting{
+    position: relative;
+    bottom: 19px;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    background: linear-gradient(rgba(190, 10, 100, 0.99),rgba(9, 136, 136,0.99));
+    padding: 10px 16px;
+    border-radius: 130px;
+    text-align: center;
+}
+.fa-pencil-square-o{
+    position: relative;
+    bottom: 19px;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    background: linear-gradient(rgba(190, 10, 100, 0.99),rgba(9, 136, 136,0.99));
+    padding: 10px 16px;
+    border-radius: 130px;
+    text-align: center;
+}
+#service h1{
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+#service p{
+    margin-top: 20px;
+    margin-bottom: 26px;
+}
+.watch{
+    max-width: 1440px;
+    height: 70vh;
+    text-align: center;
+    color: white;
+    background: linear-gradient(rgba(190, 10, 100, 0.7),rgba(9, 136, 136,0.8)),url("..//Images/video.jpg");
+    padding-top: 6em;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 6em;
+}
+.watch h1{
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.watch p{
+    font-weight: 600;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+.watch a{ 
+    background: linear-gradient(rgba(190, 10, 100, 0.7),rgba(9, 136, 136,0.8));
+    border-radius: 100px;
+    text-align: center;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    transition: all 1.5s ease;
+}
+.watch a:hover{
+    transform: translatey(-5px);
+    background: red;
+    color: white;
+}
+.fa-scissors{
+    transform: rotate(270deg);
+    font-weight: 500;
+    font-size: 60px;
+    color: rgba(190, 10, 100, 0.7);
+}
+.fa-id-card{
+    font-weight: 500;
+    font-size: 60px;
+    color: rgba(190, 10, 100, 0.7);
+}
+.fa-codepen{
+    font-weight: 500;
+    font-size: 60px;
+    color: rgba(10, 190, 70, 0.7);
+}
+.fa-file-video-o{
+    font-weight: 500;
+    font-size: 60px;
+    color: rgba(26, 84, 209, 0.7);  
+}
+.fa-pencil-square{
+    font-weight: 500;
+    font-size: 60px;
+    color: rgba(64, 10, 190, 0.7);  
+    background: none;
+    margin-bottom: 0;
+}
+#feature h5{
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#feature h1{
+    margin-bottom: 15px;
+}
+#feature p{
+    line-height: 28px;
+    margin-top: 20px;
+}
+#feature{
+    padding-top: 7em;
+}
+/* #revw{
+    background: linear-gradient(rgba(190, 10, 100, 0.7),rgba(9, 136, 136,0.8));
+    max-width: 1400px;
+    height: 60vh;
+} */
+.feature1{
+    background: linear-gradient(rgba(190, 10, 100, 0.7),rgba(9, 136, 136,0.8)), url("../Images/mount.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    width: 100%;
+    margin-top: 3em;
+    padding-top: 6em;
+}
+.fa-trophy{
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+}
+.fa-camera-retro{
+   font-weight: 500;
+   font-size: 60px;
+   color: white; 
+}
+.fa-smile-o{
+      font-size: 60px;
+      color: white; 
+      font-weight: 500;
+}
+.fa-th-large{
+        color: white;
+        font-weight: 500; 
+        font-size: 60px;
+}
+.trop{
+    line-height: 55px;
+    color: white;
+}
+.trop h2{
+    color: white;
+    font-weight: 700;
+}
+.bg-all{
+    width: 90px;
+    height: auto;
+    border-radius: 200px;
+}
+#review h5{
+    font-weight: 600;
+}
+#review h1{
+    font-weight: 700;
+    font-size: 38px;
+    padding-top: 30px;
+}
+.star{  
+    box-shadow: 0px 2px 2px 4px black;
+    height: 300px;
+    padding: 30px;
+}
+.icon{
+    color: yellow;
+}
+#blog h5{
+    font-weight: 800;
+}
+#blog p{
+  font-weight: 500;   
+}
+footer{
+    color: white;
+    background: linear-gradient(rgba(190, 10, 100, 0.7),rgba(9, 136, 136,0.8));
+    padding: 20px;
+    max-width: 1440px;
+}
+footer p{
+    font-size: 13px;
+}
+::placeholder{
+    font-weight: 500;
+    color: white;
+    position: absolute;
+}
+.form-control:hover::placeholder{
+    color:rgba(190, 10, 100, 0.7);
+}
+.form-control::placeholder{
+    color: white;
+}
+input{
+    background: transparent;
+    border: 3px solid white;
+    position: relative;
+}
+input:hover{
+    border: 2px solid rgba(9, 136, 136,0.8);
+}
+form .form-control{
+    background: transparent;
+}
+#contact{
+    background: linear-gradient(rgba(190, 10, 100, 0.7),rgba(9, 136, 136,0.8)), url("../Images/Img_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    margin-top: 7em;
+    background-attachment: fixed;
+}
+.btn-send{
+    background: linear-gradient(rgba(190, 10, 100, 0.7),rgba(9, 136, 136,0.8)), url("../Images/Img_1.jpg");
+    border-radius: 100px;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    margin-top: 20px;
+    transition: all 2s ease-in-out;
+    font-weight: 500;
+}
+.btn-send:hover{
+    transform: translateY(-7px);
+    color: black;
+    background: red;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 606px){
+   #home h1{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+   }
+   #home p{
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 25px;
+   }
+   .watch p{
+    font-size: 12px;
+    line-height: 20px;
+   }
+   /* .fa-trophy{
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+}
+.fa-camera-retro{
+   font-weight: 500;
+   font-size: 30px;
+   color: white; 
+}
+.fa-smile-o{
+      font-size: 30px;
+      color: white; 
+      font-weight: 500;
+}
+.fa-th-large{
+        color: white;
+        font-weight: 500; 
+        font-size: 30px;
+} */
+.trop{
+    line-height: 34px;
+    color: white;
+}
+.trop h2{
+    color: white;
+    font-weight: 700;
+}
+.feature1{
+    height: auto;
+    width: 100%;
+}
+#contact{
+    height: auto;
+}
+.btn-send{
+    margin-bottom: 30px;
+}
+}
