@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/bootstrapcss.css"  type="text/css">
-    <link rel="stylesheet" href="AOS/animate.min.css">
+    <link rel="stylesheet" href="AOS/animate.min.cs">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Font_6/css/all.min.css">
     <link rel="stylesheet" href="Css/style.css" type="text/css">
     <title>BILLO.</title>
 </head>
@@ -17,9 +18,10 @@
         <nav class="navbar navbar-expand-lg bg-light fixed-top animate_animated-fadeIn" style="animation: fadeIn 6s;" >
             <div class="container">
               <a class="navbar-brand" href="#">BILLO.</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+              <!-- <button class="navbar-toggler" > -->
+                <span class="fa fa-bars navbar-toggler"  data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick="changeIcon(this)"></span>
+              <!-- </button> -->
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
@@ -73,12 +75,12 @@
                 There are variations of passages of Lorem available,but the majority have suffered <br> alteration in some form by injected humour, or randomised words which dont even look slightly
             </p>
             <div class="container">
-                <div class="row gy-4 gx-4 text-center animate_animated-backInLeft" style="animation: backInLeft 5s ;">
+                <div class="row gy-4 text-center animate_animated-backInLeft" style="animation: backInLeft 5s ;">
                     <div class="col-md-4">
                         <img src="Images/graphy.jpg">
                         <div class="serv">
                             <i class="fa fa-object-group" aria-hidden="true"></i>
-                            <h4>01.Graphics Designing</h4>
+                            <h4 class="pt-md-3">01.Graphics Designing</h4>
                             <p>
                                 There are variations of passages of Lorem available,but the majority have suffered alteration in some.
                             </p>
@@ -132,7 +134,7 @@
                 <div class="row text-center mt-5 gx-5 gy-5">
                     <div class="col-md-4">
                         <i class="fa fa-scissors" aria-hidden="true"></i>
-                        <h5>Fully Responsive</h5>
+                        <h5 class="pt-md-4">Fully Responsive</h5>
                         <p class="text-center">
                             There are variations of passages of <br> Lorem available,but the majority have suffered alteration in some form 
                         </p>
@@ -244,7 +246,7 @@
                 There are variations of passages of Lorem available,but the majority have suffered <br> alteration in some form by injected humour, or randomised words which dont even look slightly
             </p>
             <div class="container">
-                <div class="row gy-5 gx-5 m-auto">
+                <div class="row gy-5 justify-content-center">
                     <div class="col-md-4 star animate_animated-flipOutY" style="animation:flipOutY 6s ;">
                                <div class="d-flex m-auto">
                                 <img src="Images/graphy.jpg" class="bg-all">
@@ -380,23 +382,23 @@
             </p>
             <div class="container text-center">
                 <div class="row text-center gy-5">
-                    <div class="col-md-4 text-center">
+                    <div class="col-lg-4 text-center">
                         <img src="Images/Img_1.jpg" alt="">
                         <p class="mt-4">Posted in Web Design. 22 Dec 2022</p>
                         <h5 class="animate_animated-zoomIn" style="animation: zoomIn 3s;">Website Design in Bootstrap</h5>
-                        <p class="text-md-start"> lorem ipsum dolor sit amet consectetur <br> adipicing elit Debitis aperiam unde official?</p>
+                        <p> lorem ipsum dolor sit amet consectetur <br> adipicing elit Debitis aperiam unde official?</p>
                     </div>
-                    <div class="col-md-4 text-center">
+                    <div class="col-lg-4 text-center">
                         <img src="Images/Img_3.jpg" alt="">
                         <p class="mt-4">Posted in Web Design. 22 Dec 2022</p>
                         <h5 class="animate_animated-zoomInRight" style=" animation:zoomInRight 3s;">Website Design in Bootstrap</h5>
-                        <p class="text-md-start"> lorem ipsum dolor sit amet consectetur <br> adipicing elit Debitis aperiam unde official?</p>
+                        <p> lorem ipsum dolor sit amet consectetur <br> adipicing elit Debitis aperiam unde official?</p>
                     </div>
-                    <div class="col-md-4 text-center">
+                    <div class="col-lg-4 text-center">
                         <img src="Images/Img_2.jpg" alt="">
                         <p class="mt-4">Posted in Web Design. 22 Dec 2022</p>
                         <h5 class="animate_animated-zoomInDown" style="animation: zoomInDown 2s;">Website Design in Bootstrap</h5>
-                        <p class="text-md-start"> lorem ipsum dolor sit amet consectetur <br> adipicing elit Debitis aperiam unde official?</p>
+                        <p> lorem ipsum dolor sit amet consectetur <br> adipicing elit Debitis aperiam unde official?</p>
                     </div>
                 </div>
             </div>
@@ -454,5 +456,6 @@
 
     <script src="AOS/fontawesome.min.js"></script>
     <script src="Java/bootstrapjs.js"></script>
+    <script src="Java/js.js"></script>
 </body>
 </html>
